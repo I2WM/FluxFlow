@@ -161,9 +161,7 @@ the Shanghai Astronomical Observatory.
 ```bibtex
 @inproceedings{liu2026fluxflow,
   title={{FluxFlow: Conservative Flow-Matching for Astronomical Image Super-Resolution}},
-  author={Liu, Shuhong and Ge, Xining and Xu, Quanfeng and Cui, Ziteng and
-          Li, Liuzhuozheng and Chang, Gengjia and Liu, Jun and Gu, Ziying and
-          Li, Dong and Chu, Xuangeng and Gu, Lin and Harada, Tatsuya},
+  author={Liu, Shuhong and Ge, Xining and Xu, Quanfeng and Cui, Ziteng and Li, Liuzhuozheng and Chang, Gengjia and Liu, Jun and Gu, Ziying and Li, Dong and Chu, Xuangeng and Gu, Lin and Harada, Tatsuya},
   booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
   year={2026},
   url={https://arxiv.org/abs/2605.03749}
