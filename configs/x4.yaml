@@ -1,0 +1,36 @@
+model:
+  base_dim: 48
+  time_dim: 256
+  in_channels: 2
+  out_channels: 1
+
+data:
+  data_dir: /path/to/data_x4
+  scale_factor: 4
+  split_file: data_split.json
+
+train:
+  epochs: 300
+  batch_size: 32
+  lr: 1e-4
+  weight_decay: 1e-4
+  warmup_steps: 1000
+  grad_clip: 1.0
+  ema_decay: 0.9999
+  num_workers: 4
+  save_every: 20
+  log_every: 50
+  val_steps: 20
+  bridge_sigma: 1.0
+  exp_dir: ./experiments/unet_fm_x4_full
+  seed: 42
+
+savm:
+  gamma: 0.05
+  savm_start: 0.5
+  mask_blur_sigma: 3.0
+
+mcfm:
+  eta: 1.0
+  eta_schedule: linear_decay
+  psf_sigma: 2.0

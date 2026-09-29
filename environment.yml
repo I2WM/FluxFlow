@@ -1,0 +1,14 @@
+name: fluxflow
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch>=2.1
+  - pytorch-cuda=11.8
+  - numpy>=1.24
+  - pyyaml>=6.0
+  - astropy>=5.3
+  - sep>=1.2
+  - scikit-image>=0.21
