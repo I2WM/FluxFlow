@@ -8,7 +8,7 @@
 
 <p>
   <a href="https://shuhongll.github.io/">Shuhong Liu</a><sup>1,2,*</sup>, Xining Ge<sup>2,*</sup>, <a href="https://xuquanfeng.github.io/">Quanfeng Xu</a><sup>3,*</sup>,
-  <a href="https://cuiziteng.github.io/">Ziteng Cui</a><sup>1,2</sup>, Liuzhuozheng Li<sup>1</sup>, Gengjia Chang<sup>2</sup>,
+  <a href="https://cuiziteng.github.io/">Ziteng Cui</a><sup>1</sup>, Liuzhuozheng Li<sup>1</sup>, Gengjia Chang<sup>2</sup>,
   Jun Liu<sup>2</sup>, Ziying Gu<sup>1</sup>, Dong Li<sup>2</sup>,
   <a href="https://xg-chu.site/">Xuangeng Chu</a><sup>1,2</sup>, <a href="https://sites.google.com/view/linguedu/home">Lin Gu</a><sup>4</sup>, and <a href="https://www.mi.t.u-tokyo.ac.jp/harada/">Tatsuya Harada</a><sup>1,5</sup>
 </p>
