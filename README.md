@@ -53,30 +53,7 @@ pip install -r requirements.txt
 
 ## Dataset: DESI-HST
 
-Download the x2 and x4 datasets from [Hugging Face: xiningning/FluxFlow](https://huggingface.co/datasets/xiningning/FluxFlow). The dataset page includes the exact sample counts, source fields, file definitions, and limitations of the historical patch-level split.
-
-```bash
-pip install -U huggingface_hub
-hf download xiningning/FluxFlow --repo-type dataset --local-dir ./FluxFlow-dataset
-python ./FluxFlow-dataset/prepare_dataset.py --output-dir ./datasets/FluxFlow
-```
-
-The extraction script checks the archive SHA-256 sums and preserves the original split lists and normalization parameters. Set `data.data_dir` in `configs/x2.yaml` or `configs/x4.yaml` to `./datasets/FluxFlow/data_x2` or `./datasets/FluxFlow/data_x4` and retain `split_file: data_split.json`.
-
-```text
-data_x4/
-|-- normalize.json
-|-- data_split.json
-`-- <sample_id>/
-    |-- desi_sci.npy
-    |-- hst_sci.npy
-    |-- hst_wht.npy
-    |-- hst_masks.npy
-    |-- hst_sources.npz
-    `-- hst_meta.json
-```
-
-The current reproducibility split has 17,737 training and 1,701 test pairs per scale, from COSMOS and UDS. Data will be available soon.
+Data will be available soon.
 
 ## 🏋️ Training
 
