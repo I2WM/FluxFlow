@@ -76,7 +76,7 @@ data_x4/
     `-- hst_meta.json
 ```
 
-The current reproducibility split has 17,737 training and 1,701 test pairs per scale, from COSMOS and UDS. It retains spatial overlap between some training and test crops and should not be treated as a spatially independent benchmark; see the [dataset card](https://huggingface.co/datasets/xiningning/FluxFlow#split-limitations).
+The current reproducibility split has 17,737 training and 1,701 test pairs per scale, from COSMOS and UDS. Data will be available soon.
 
 ## 🏋️ Training
 
